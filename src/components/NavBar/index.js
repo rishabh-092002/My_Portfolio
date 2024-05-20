@@ -204,7 +204,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setopen(!open)
             }}>Education</MobileLink>
-            <HireButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="/" target="_blank">Github Profile</HireButton>
+            <HireButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="#contact" target="_blank">Hire Me</HireButton>
           </MobileMenu>
         }
     </NavContainer>
